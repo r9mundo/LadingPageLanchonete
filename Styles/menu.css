@@ -26,3 +26,7 @@
     color: #1d1d1dad;
     font-weight: 800;
 }
+.nav-link:hover{
+color: black;
+cursor: pointer;
+}
