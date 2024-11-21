@@ -55,3 +55,17 @@
     color: red;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1170px){
+    #depoimentos{
+        flex-direction: column;
+    }
+}
+
+.section-title{
+    font-size: 1.5rem;
+}
+
+.section-subtitle{
+    font-size: 1rem;
+}

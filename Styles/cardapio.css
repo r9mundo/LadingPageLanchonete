@@ -23,7 +23,7 @@
     padding: 20px;
     box-shadow: 0px 0px 12px 4px rgba (0,0,0,0.1);
     position: relative;
-    width: 30%;
+    width: 300px;
 }
 .card-image{
     width: 60%;
@@ -61,4 +61,23 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+@media screen and (max-width: 1170){
+    .card{
+        width: 200px;
+    }
+    .feedback{
+        flex-direction: column;
+    }
+    .card-chefe{
+        height: 250px;
+    }
+}
+.section-title{
+    font-size: 1.5rem;
+}
+
+.section-subtitle{
+    font-size: 1rem;
 }
